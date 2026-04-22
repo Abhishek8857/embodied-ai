@@ -1,0 +1,15 @@
+[submodule "isaac-sim-lab"]
+	path = isaac-sim-lab
+	url = https://github.com/Abhishek8857/isaac-sim-lab.git
+[submodule "ros-ai-agent"]
+	path = ros-ai-agent
+	url = https://github.com/Abhishek8857/ros-ai-agent.git
+	branch = devel
+[submodule "kinova-ros2"]
+	path = kinova-ros2
+	url = https://github.com/Abhishek8857/kinova-ros2.git
+	branch = devel
+[submodule "contact_graspnet"]
+	path = contact_graspnet
+	url = https://github.com/Abhishek8857/contact_graspnet.git
+	branch = devel
