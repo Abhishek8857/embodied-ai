@@ -3,7 +3,7 @@
 > AI-powered robotic agents with persistent memory, task outcome detection, and autonomous recovery mechanisms.
 
 <div align="center">
-  <img src="img/agent_architecture.png" width="800" alt="System Architecture"/>
+  <img src="img/agent_architecture.png" width="600" alt="System Architecture"/>
 </div>
 
 <div align="center">
@@ -122,4 +122,4 @@ The agent will plan, execute, and recover from failures automatically.
 
 ## License
 
-[MIT](LICENSE)
+[Apache-2.0](LICENSE)
