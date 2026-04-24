@@ -26,4 +26,5 @@ export CONTACT_GRASPNET_IMAGE=$(cat contact_graspnet/image_name.cfg)
 export KINOVA_ROS2_IMAGE=$(cat kinova-ros2/image_name.cfg)
 export ROS_AI_AGENT_IMAGE=$(cat ros-ai-agent/image_name.cfg)
 
+docker compose pull contact-graspnet
 docker compose build

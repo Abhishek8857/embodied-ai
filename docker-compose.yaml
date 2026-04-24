@@ -11,10 +11,7 @@ services:
 
 
   contact-graspnet:
-    image: ${CONTACT_GRASPNET_IMAGE}
-    build:
-      context: ./contact_graspnet
-      dockerfile: Dockerfile
+    image: ad8857/contact-graspnet:latest
 
 
   kinova-ros2:
