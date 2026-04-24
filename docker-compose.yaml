@@ -1,0 +1,32 @@
+# docker compose build             — build all
+# docker compose build isaac-sim-lab  — build one
+# docker compose build --no-cache  — force rebuild all
+
+services:
+  isaac-sim-lab:
+    image: ${ISAAC_SIM_LAB_IMAGE}
+    build:
+      context: ./isaac-sim-lab
+      dockerfile: Dockerfile
+
+
+  contact-graspnet:
+    image: ${CONTACT_GRASPNET_IMAGE}
+    build:
+      context: ./contact_graspnet
+      dockerfile: Dockerfile
+
+
+  kinova-ros2:
+    image: ${KINOVA_ROS2_IMAGE}
+    build:
+      context: ./kinova-ros2
+      dockerfile: Dockerfile
+      args:
+        LOW_MEMORY: ${LOW_MEMORY:-false}
+
+  ros-ai-agent:
+    image: ${ROS_AI_AGENT_IMAGE}
+    build:
+      context: ./ros-ai-agent
+      dockerfile: Dockerfile
