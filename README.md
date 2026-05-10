@@ -102,10 +102,9 @@ This starts all services. Wait until all containers report healthy before procee
 3. Click **Play** (▶) to start the simulation
 
 ### 5. Send Commands to the Robot
-
 Find the terminal showing `Enter a command:` and type a natural language instruction.
 
->  **Always start with the home command** to move the robot to its safe starting position:
+> **Always start with the home command** to move the robot to its safe starting position:
 > ```
 > go home
 > ```
@@ -114,9 +113,9 @@ and then watch the Robot go Home
 
 ![Go Home](data/home.gif)
 
-Here are more examples from commands
+The agent also supports **episodic memory** — it remembers object preferences and task context from previous sessions. Here are some examples:
 
-1. Pick up my Favorite Cube - (mentioned as yellow in previous sessions)
+1. Pick up my Favorite Cube *(the agent recalls it was yellow from a previous session)*
 
 ![Pick up my favorite cube](data/favorite_cube_yellow.gif)
 
@@ -124,16 +123,12 @@ Here are more examples from commands
 
 ![Pick up the Black Cube](data/black_cube.gif)
 
-3. Perform the critical routine
+3. Perform the critical routine *(the agent recalls this means placing the red cube on the yellow cube)*
 
 ![Perform the critical Routine](data/critical_routine.gif)
 
-Then you can issue any task command, for example:
-```
-Pick up the red cube and place it on the green cube.
-```
 
-The agent will plan, execute, and recover from failures automatically. 
+Then you can issue any task command, for example: ```Pick up the red cube and place it on the green cube.```, The agent will plan, execute, and recover from failures automatically.
 
 ---
 
