@@ -7,7 +7,6 @@
 </div>
 
 <div align="center">
-  <!-- Replace with your actual badges -->
   <img src="https://img.shields.io/badge/ROS2-Humble-blue"/>
   <img src="https://img.shields.io/badge/Isaac%20Sim-4.5-green"/>
   <img src="https://img.shields.io/badge/Docker-required-blue"/>
@@ -112,21 +111,21 @@ Find the terminal showing `Enter a command:` and type a natural language instruc
 > ```
 and then watch the Robot go Home 
 
-![Go Home](data/home.mp4)
+<video src="data/home.mp4" controls width="700"></video>
 
 Here are more examples from commands
-1.  Pick up my Favorite Cube - (mentioned as yellow in previous sessions)
 
-![Pick up my favorite cube](data/favorite_cube_yellow.mp4)
+1. Pick up my Favorite Cube - (mentioned as yellow in previous sessions)
 
-2. Pick up the Black Cube 
+<video src="data/favorite_cube_yellow.mp4" controls width="700"></video>
 
-![Pick up the Black Cube](data/black_cube.mp4)
+2. Pick up the Black Cube
 
-3. Perform the critical routine 
+<video src="data/black_cube.mp4" controls width="700"></video>
 
-![Perform the critical Routine](data/critical_routine.mp4)
+3. Perform the critical routine
 
+<video src="data/critical_routine.mp4" controls width="700"></video>
 
 Then you can issue any task command, for example:
 ```
