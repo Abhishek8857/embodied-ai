@@ -3,7 +3,7 @@
 > AI-powered robotic agents with persistent memory, task outcome detection, and autonomous recovery mechanisms.
 
 <div align="center">
-  <img src="img/agent_architecture.png" width="600" alt="System Architecture"/>
+  <img src="data/agent_architecture.png" width="600" alt="System Architecture"/>
 </div>
 
 <div align="center">
