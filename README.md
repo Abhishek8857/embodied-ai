@@ -110,6 +110,23 @@ Find the terminal showing `Enter a command:` and type a natural language instruc
 > ```
 > go home
 > ```
+and then watch the Robot go Home 
+
+![Go Home](data/home.mp4)
+
+Here are more examples from commands
+1.  Pick up my Favorite Cube - (mentioned as yellow in previous sessions)
+
+![Pick up my favorite cube](data/favorite_cube_yellow.mp4)
+
+2. Pick up the Black Cube 
+
+![Pick up the Black Cube](data/black_cube.mp4)
+
+3. Perform the critical routine 
+
+![Perform the critical Routine](data/critical_routine.mp4)
+
 
 Then you can issue any task command, for example:
 ```
