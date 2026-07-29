@@ -127,6 +127,9 @@ The agent also supports **episodic memory** — it remembers object preferences 
 
 ![Perform the critical Routine](data/critical_routine.gif)
 
+4. Task Recovery *(the agent percieves that the proposed task has failed and recovers auotnomously)*
+
+![Task Recovery](data/task_recovery.gif)
 
 Then you can issue any task command, for example: ```Pick up the red cube and place it on the green cube.```, The agent will plan, execute, and recover from failures automatically.
 
